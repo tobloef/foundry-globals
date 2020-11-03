@@ -1,3 +1,12 @@
+const wrapper = async (func) => {
+  try {
+    await func();
+  } catch (error) {
+    ui.notifications.error("An error occured during macro execution.");
+    throw error;
+  }
+};
+
 const getActorAsync = async () => {
   let ownActor = game.user.character;
   let tokenActor = (canvas.tokens.controlled[0] || {}).actor;
