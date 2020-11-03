@@ -1,0 +1,11 @@
+{
+  "name": "tobloef-globals",
+  "title": "Tobloef's JS Globals",
+  "description": "A collection of JavaScript globals for use in my personal macros.",
+  "author": "tobloef",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "scripts": [
+    "globals.js"
+  ]
+}
